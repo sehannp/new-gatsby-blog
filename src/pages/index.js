@@ -15,18 +15,14 @@ const BlogTitle = styled.h3`
   color:blue;
 `
 
-const LayB = styled(Layout)`
-  background-color: black;
-`
-
 const IndexPage = ({data}) => {
   console.log(data);
   return (
-  <LayB>
+  <Layout>
     <SEO title="Home" />
     <div>
       <h1>Sehan's Thoughts</h1>
-      <h4>{data.allMarkdownRemark.totalCount}</h4>
+      <h4>{data.allMarkdownRemark.totalCount} Posts</h4>
       {
         data.allMarkdownRemark.edges.map(
           ({node}) => (
@@ -40,7 +36,7 @@ const IndexPage = ({data}) => {
         )
       }
     </div>
-  </LayB>
+  </Layout>
   );
 }
 
