@@ -21,6 +21,7 @@ const IndexPage = ({data}) => {
   <Layout>
     <SEO title="Home" />
     <div>
+      <Link to="/about">About</Link>
       <h1>Sehan's Thoughts</h1>
       <h4>{data.allMarkdownRemark.totalCount} Posts</h4>
       {
