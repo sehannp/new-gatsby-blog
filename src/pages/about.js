@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-
+import Image from "../images/profile-pic.jpg"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
@@ -8,6 +8,7 @@ const about = () => (
   <Layout>
     <SEO title="About Sehan" />
     <h1>Sehan Nadesan Pushparaja</h1>
+    <img src={Image} alt="my pic" height="300"/>
     <p> I learn tools and build things ! Everything involving JavaScript, SAS, Machine Learning interests me. I have learned a lot from fellow developers in Reddit, Udemy, Coursera, Stack Overflow, and other public forums. In fact there were lot of heros out there who provided the right guidance at the right time. Kudos to them.
     This is hence, me giving back to the aspiring students like me who wanted abstracted, toned-down information so that it would enable them to find some light. I will post my learnings, journey, and few occasional portraits that I draw !  
     </p>
