@@ -1,6 +1,7 @@
 ---
 title: "Intros"
 date: "2020-02-26"
+featuredImage: '../images/welcome.png'
 ---
 
 ### Hello World !.
